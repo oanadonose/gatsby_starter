@@ -1,4 +1,4 @@
-#Gatsby CSS Module Naming Convention
+» Gatsby CSS Module Naming Convention «
 
 Component1 - CSS Module 1
 Component2 - CSS Module 2
@@ -9,4 +9,14 @@ import styles from "./404.module.css"
 .header(in css file)=>styles.header(in js file)
 .error-message => styles.errorMessage 
 
-##
+███████████████████████████████████████████████
+
+» Global style «
+in src/styles global.css stores the global css file
+
+in root folder gatsby-browser.js:
+import "./src/styles/global.css"
+
+!restart gatsby deploy(first time did not update)
+
+███████████████████████████████████████████████

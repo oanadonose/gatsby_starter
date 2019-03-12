@@ -20,3 +20,30 @@ import "./src/styles/global.css"
 !restart gatsby deploy(first time did not update)
 
 ███████████████████████████████████████████████
+
+» SASS «
+
+CSS with superpowers
+can create css nested classes
+add it to gatsby-config.js file in root folder:
+module.exports = {
+  plugins: ["gatsby-plugin-sass"],
+}
+
+███████████████████████████████████████████████
+
+» REACT COMPONENTS «
+
+ ► Page COMPONENTS
+    file with .js extension in /src/pages
+    complete page with UI and logic
+
+ ► Layout COMPONENTS
+    look of the page
+    reused on the site
+
+ ► Regular COMPONENTS
+    reusable
+    bundle to create more complex components
+
+ ███████████████████████████████████████████████

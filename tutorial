@@ -46,4 +46,8 @@ module.exports = {
     reusable
     bundle to create more complex components
 
- ███████████████████████████████████████████████
+↕ PRIVATE COMPONENT = no 'export' keyword;
+                  = can only be used in file;
+ ██████████████████████████████████████████████
+
+ 

@@ -4,7 +4,7 @@
   max-width: $site-width;
   min-height: 140px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 20px;
   margin-top: 50px;
 
   .row {
@@ -36,6 +36,7 @@
 
   .button-icon {
     @extend .button;
+    background-color: $color-pallete-4;
     background-size: 16px 16px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -54,7 +55,7 @@
 
   .button-linkedin {
     @extend .button-icon;
-    background-image: url("../images/linkedin.png");
+    background-image: url("../images/linkedin-o.png");
   }
 
   .link {
@@ -62,5 +63,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
     font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-pallete-2;
+    }
+
+    &:not(:last-child) {
+      padding-right: 30px;
+    }
   }
 }

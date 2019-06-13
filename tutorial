@@ -1,3 +1,4 @@
+███████████████████████████████████████████████
 » Gatsby CSS Module Naming Convention «
 
 Component1 - CSS Module 1
@@ -50,4 +51,8 @@ module.exports = {
                   = can only be used in file;
  ██████████████████████████████████████████████
 
+LEFT AT:
+5. Creating components
+video 5
+(last thing=create headerlink component)
  

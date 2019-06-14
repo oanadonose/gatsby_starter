@@ -52,7 +52,5 @@ module.exports = {
  ██████████████████████████████████████████████
 
 LEFT AT:
-5. Creating components
-video 5
-(last thing=create headerlink component)
+7.3 npm install --save gatsby-source-filesystem
  

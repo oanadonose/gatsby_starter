@@ -21,13 +21,15 @@
     width: 150px;
     height: 150px;
     background-color: $color-pallete-5;
+    margin-left: 100px;
   }
 
   .right {
-    margin-left: 150px;
+    margin-left: 320px;
     padding: 15px;
     color: $color-pallete-3;
     margin-top: -20px;
+    width: $container-width;
 
     .date {
       margin-top: -15px;

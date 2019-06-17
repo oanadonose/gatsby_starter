@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styles from "./article.module.scss"
 
-export default props => (
+export default (props) => (
   <Link to={props.to}>
     <article className={styles.articleBox} key={props.id}>
       <div className={styles.left}>
